@@ -1,0 +1,28 @@
+/* Slideshow container */
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+  }
+  
+  .dot {
+    height: 10px;
+    width: 10px;
+    margin: 0 2px;
+    background-color: rgba(175, 181, 164, 1);
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  .text {
+    color: #F5E8E0;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    font-size: 100px;
+    position: absolute;
+    top: 50px;
+    width: 100%;
+    text-align: center;
+  }
+  .active {
+    background-color: #717171;
+  }

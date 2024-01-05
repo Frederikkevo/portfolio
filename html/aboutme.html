@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/general.css" />
+    <link rel="stylesheet" href="../css/aboutme.css" />
+    <link rel="icon" href="../img/logo_fv.webp" />
+    <title>About me</title>
+  </head>
+
+  <body>
+    <header>
+      <a href="index.html">
+        <img src="../img/logofv.png" alt="logo" />
+      </a>
+      <nav>
+        <a href="aboutme.html">ABOUT</a>
+        <a href="portfolio.html">PORTFOLIO</a>
+      </nav>
+    </header>
+    <main>
+      <br />
+      <div class="slideshow-container">
+        <div class="mySlides fade">
+          <img src="../img/frederikke1.webp" style="width: 100%" />
+          <div class="text">HVEM ER JEG?</div>
+        </div>
+
+        <div class="mySlides fade">
+          <img src="../img/frederikke2.webp" style="width: 100%" />
+          <div class="text">HVEM ER JEG?</div>
+        </div>
+
+        <div class="mySlides fade">
+          <img src="../img/mig.webp" style="width: 100%" />
+          <div class="text">HVEM ER JEG?</div>
+        </div>
+
+        <div style="text-align: center">
+          <span class="dot"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+        </div>
+
+        <script>
+          let slideIndex = 0;
+          showSlides();
+
+          function showSlides() {
+            let i;
+            let slides = document.getElementsByClassName("mySlides");
+            let dots = document.getElementsByClassName("dot");
+            for (i = 0; i < slides.length; i++) {
+              slides[i].style.display = "none";
+            }
+            slideIndex++;
+            if (slideIndex > slides.length) {
+              slideIndex = 1;
+            }
+            for (i = 0; i < dots.length; i++) {
+              dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex - 1].style.display = "block";
+            dots[slideIndex - 1].className += " active";
+            setTimeout(showSlides, 3000); // Change image every 3 seconds
+          }
+        </script>
+      </div>
+      <h1>MIT CV</h1>
+
+      <h2>Om mig</h2>
+      <p>
+        Jeg hedder Frederikke og jeg er 28 år gammel. Jeg har valgt at studere
+        multimediedesign, da jeg sætter pris på fusionen af kreativitet og
+        teknik. Jeg har altid nydt at udfolde mig kreativt, eksempelvis gennem
+        skabelsen af collager, hvor jeg leger med farver, billeder og
+        kompositioner. At bidrage til det æstetiske udtryk er noget, jeg
+        virkelig værdsætter. Her deler jeg mine kompetencer, som jeg har
+        erhvervet mig efter 1. semester:
+      </p>
+      <h2>Færdigheder</h2>
+
+      <p>
+        Jeg har erkendt vigtigheden af at foretage skitser som en indledende
+        fase i ethvert projekt for at skabe en hurtig forståelse af retningen og
+        målene. Min forståelse for designprincipper, herunder
+        farvekombinationer, kontraster, gestaltlove og layoutprincipper, er
+        blevet udbygget. Jeg behersker kunsten at udarbejde wireframes og
+        layoutdiagrammer, som danner grundlag for min kodning. Jeg er i stand
+        til at udføre omfattende research omkring specifikke emner, indsamle
+        indsigt og dermed identificere målgrupper og unikke værditilbud. Jeg er
+        bekendt med metoder som 5-sekunders testen, Tænke højt testen, BERT og
+        Ekspert testen, og jeg anvender disse til at teste websider på
+        potentielle brugere. Denne tilgang hjælper mig med at forfine og
+        optimere webstedet for at sikre en øget brugervenlighed. Jeg kan
+        planlægge optagelser ved at lave storyboard og forberede spørgsmål. Jeg
+        kan bruge ekstern lyd og kamera og koble det sammen med fx et interview.
+        Herefter kan jeg redigere video’en i Premiere Pro.
+      </p>
+    </main>
+    <footer>Frederikke Volkdal</footer>
+  </body>
+</html>

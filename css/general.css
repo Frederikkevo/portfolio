@@ -1,0 +1,70 @@
+body {
+    background-color: #F5E8E0; 
+    font-family: 'Arial', sans-serif; /* Default font family */
+    color: #68768b;
+  }
+  
+  header {
+    background-color: #A0C5CB;
+    padding: 20px;
+    text-align: center;
+  }
+
+  header img {
+    width: 80px; /* Justér bredden efter dine behov */
+    height: auto; /* Bevar aspect ratio */
+    display: block; /* Gør det til et blokelement, så margin og padding fungerer korrekt */
+    margin: 20px auto; /* Tilpas margin efter dine behov */
+  }
+
+  h1 {
+    color: #EBB7BC;
+    text-align: center;
+  }
+  h2 {
+    color: #A0C5CB;
+  }
+  
+  section {
+    margin: 20px;
+  }
+  
+  
+  footer {
+    background-color: #ecdac7;
+    padding: 10px;
+    text-align: right;
+    color: #F5E8E0;
+  }
+
+  p {
+    color: #68768b;
+  }
+
+
+  nav a {
+    margin: 10px;
+    text-decoration: none;
+    color: #F5E8E0; 
+    transition: color 0.3s ease-in-out;
+  }
+
+  nav a:hover {
+    color: #EBB7BC;
+  }
+  /*******FARVER******/
+  color1 {
+    color: #A0C5CB;
+  }
+  color2 {
+    color: #F8CC9D;
+  }
+  color3 {
+    color: #F5E8E0;
+  }
+  color4 {
+    color: #EBB7BC;
+  }
+  color5 {
+    color: #68768b;
+  }
