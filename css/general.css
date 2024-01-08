@@ -24,18 +24,15 @@ body {
   h2 {
     color: #A0C5CB;
   }
+  h3{
+    color: #F5E8E0;
+
+  }
   
   section {
     margin: 20px;
   }
-  
-  
-  footer {
-    background-color: #ecdac7;
-    padding: 10px;
-    text-align: right;
-    color: #F5E8E0;
-  }
+
 
   p {
     color: #68768b;
@@ -68,3 +65,53 @@ body {
   color5 {
     color: #68768b;
   }
+
+  /***footer**/
+
+  /* ikoner */
+
+.icons_t {
+  position: relative;
+  font-size: 15px;
+  left: 10px;
+  margin-bottom: 5%;
+}
+footer {
+  background-color: #F8CC9D;
+  padding: 10px;
+  text-align: right;
+  color: #F5E8E0;
+}
+
+.facebook img {
+  max-width: 30%;
+}
+.info {
+  margin-left: 5%;
+}
+
+.tider {
+  margin-left: 20%;
+}
+
+.medier {
+  margin-left: 30%;
+}
+
+p {
+  margin: 0;
+}
+
+.footer-h3 {
+  font-size: 20px;
+  margin: 2%;
+}
+.grid_1-1-1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.grid_1-8 {
+  display: grid;
+  grid-template-columns: 1fr 8fr;
+}

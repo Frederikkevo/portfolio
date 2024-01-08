@@ -26,3 +26,26 @@
   .active {
     background-color: #717171;
   }
+
+  img {
+    width: 50%; 
+      height: auto;
+      display: block; 
+      margin: 20px auto; 
+  }
+
+  .grid-container1 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 50px;
+    text-align: justify;
+    padding-bottom: 5%;
+  }
+
+  .grid-container3{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
+    text-align: justify;
+    padding-bottom: 5%;
+  }
