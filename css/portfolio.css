@@ -14,19 +14,11 @@
     display: none;
     padding: 10px;
     background-color: #eddbdd;
-    
   }
   
   .tab-content.active {
     display: block;
   }
-
-
-
-iframe{
-
-    width: 70%;
-}
 
 button {
   background-color: #A0C5CB;
@@ -71,7 +63,13 @@ footer img {
 text-align: justify;
 padding: 20px;
 }
-
+.grid-container4 {
+  display: grid;
+  grid-template-columns: repeat(2, 2fr);
+  gap: 50px;
+  text-align: justify;
+  padding-bottom: 20px;
+}
 
 .text-box {
   padding: 20px;
@@ -80,5 +78,14 @@ padding: 20px;
 }
 
 .figur {
-  width: 30%;
+  width: 50%;
+}
+
+.styletile, .bert {
+  width: 100%;
+  height: auto;
+}
+
+.mig {
+  width: 70%;
 }

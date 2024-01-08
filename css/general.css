@@ -11,10 +11,10 @@ body {
   }
 
   header img {
-    width: 80px; /* Justér bredden efter dine behov */
-    height: auto; /* Bevar aspect ratio */
-    display: block; /* Gør det til et blokelement, så margin og padding fungerer korrekt */
-    margin: 20px auto; /* Tilpas margin efter dine behov */
+    width: 80px;
+    height: auto;
+    display: block; 
+    margin: 20px auto; 
   }
 
   h1 {
@@ -77,41 +77,39 @@ body {
   margin-bottom: 5%;
 }
 footer {
-  background-color: #F8CC9D;
-  padding: 10px;
+  background-color: #68768b;
+  padding: 40px;
   text-align: right;
-  color: #F5E8E0;
+  color: #f5cfb7;
+}
+
+footer p{
+  color: #aaabac;
 }
 
 .facebook img {
   max-width: 30%;
 }
-.info {
-  margin-left: 5%;
-}
-
-.tider {
-  margin-left: 20%;
-}
 
 .medier {
-  margin-left: 30%;
+  margin-left: 40%;
 }
 
-p {
-  margin: 0;
-}
 
 .footer-h3 {
   font-size: 20px;
   margin: 2%;
+  color: #f7ddc2;
 }
 .grid_1-1-1 {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
 }
 
-.grid_1-8 {
-  display: grid;
-  grid-template-columns: 1fr 8fr;
+/* CSS-styling */
+div {
+  margin-top: 20px;    /* Øverste margin på 20 pixels */
+  margin-bottom: 20px; /* Bundmargin på 20 pixels */
+  margin-left: 5%;    /* Venstremargin på 10% af forældreelementets bredde */
+  margin-right: 5%;   /* Højremargin på 10% af forældreelementets bredde */
 }

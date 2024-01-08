@@ -19,9 +19,10 @@
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
     font-size: 100px;
     position: absolute;
-    top: 50px;
+    top: 38px;
+    left: 9%;
     width: 100%;
-    text-align: center;
+
   }
   .active {
     background-color: #717171;
