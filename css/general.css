@@ -160,7 +160,7 @@ div {
   img {
     max-width: 100%;
     height: auto;
-    margin-bottom: 10px; /* Tilføjer lidt mellemrum mellem stakket billeder */
+    margin-bottom: 10px; 
   }
 
   .footer-h3 {
@@ -174,9 +174,14 @@ div {
     left: 10px;
     margin-bottom: 5%;
   }
+  .socials {
+    width: 40px;
+    display: flex;
+    flex-direction: column;
+  }
   .gridcontainer1, .gridcontainer2, .gridcontainer3, .gridcontainer4, .gridcontainer5 .grid_1-1-1 {
     display: flex;
-    flex-direction: column; /* Stabler billeder lodret */
+    flex-direction: column; 
 }
 .slideshow-container{
   display: flex;
