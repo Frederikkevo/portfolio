@@ -1,0 +1,91 @@
+.tabs {
+    display: flex;
+  }
+  
+  .tab {
+    padding: 10px;
+    margin: 5px;
+    cursor: pointer;
+    border: 1px solid #EBB7BC;
+    background-color: #d0dbdd;
+  }
+  
+  .tab-content {
+    display: none;
+    padding: 10px;
+    background-color: #eddbdd;
+  }
+  
+  .tab-content.active {
+    display: block;
+  }
+
+button {
+  background-color: #A0C5CB;
+   
+  padding: 10px 20px; 
+  font-size: 16px;
+  border: none;
+  border-radius: 5px; 
+  cursor: pointer; 
+}
+button a{
+  text-decoration: none;
+  color: #F5E8E0;
+}
+
+button:hover {
+  background-color: #EBB7BC;
+}
+
+img {
+  width: 100%; 
+    height: auto;
+    display: block; 
+    margin: 20px auto; 
+}
+
+footer img {
+  width: 50%;
+}
+
+.grid-container1 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 50px;
+  text-align: justify;
+  padding-bottom: 20px;
+}
+.grid-container2 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 50px;
+text-align: justify;
+padding: 20px;
+}
+.grid-container4 {
+  display: grid;
+  grid-template-columns: repeat(2, 2fr);
+  gap: 50px;
+  text-align: justify;
+  padding-bottom: 20px;
+}
+
+.text-box {
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.figur {
+  width: 50%;
+}
+
+.styletile, .bert {
+  width: 100%;
+  height: auto;
+}
+
+.mig {
+  width: 70%;
+}
